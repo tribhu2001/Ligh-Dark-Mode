@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import HomePage from './components/HomePage'
@@ -8,7 +7,6 @@ import NavBar from './components/NavBar'
 import { ThemeProvider } from './theme-context'
 
 function App() {
-
   return (
     <ThemeProvider>
       <BrowserRouter>
